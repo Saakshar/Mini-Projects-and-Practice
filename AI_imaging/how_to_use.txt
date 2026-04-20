@@ -1,0 +1,16 @@
+Training Model:
+1. Login to RoboFlow
+2. Add all images with varying lighting, angles, and green_crabs (including images without them)
+3. Annotate the images manually or utilize the auto-annotation tool
+4. Create a new version using this dataset and download as a zip file using the YOLOv8 preset
+5. unzip the file into datasets/greencrab/
+*if datasets/greencrab/ isn't empty, make sure to delete all of the old data before uploading the new data
+6. run the train.py file and wait until the code finishes running (could take a while)
+*to improve accuracy, increase the number of epochs in train.py, this will improve accuracy but take longer to train
+
+Detecting Objects:
+1. upload all the images that you would like to check for greencrabs in test_images/
+2. run the detect_greencrab.py file
+*the data regarding the greencrabs deteced will be stored in the following:
+    - raw object detection data (such as confidence) would be stored in detections.csv
+    - images with bounding boxes and labels around greencrab would be stored in output_detected/

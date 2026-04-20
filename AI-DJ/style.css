@@ -1,0 +1,46 @@
+.heading{
+    font-size:30px;
+    margin:0px;
+    width:100%;
+    font-family: 'Roboto', sans-serif;
+}
+.note{
+    font-family: 'Suravaram', serif;
+    font-size:18px;
+    color:red;
+}
+#speed_div{
+    float:left;
+}
+#speed_img{
+    width:200px;
+    border-radius:100px;
+}
+#speed_label{
+    font-family: 'Medula One', cursive;
+    padding:5px;
+    margin:15px;
+    font-size:25px;
+}
+#volume_div{
+    float:right;
+}
+#volume_img{
+    width:200px;
+    border-radius:100px;
+}
+#volume_label{
+    font-family: 'Medula One', cursive;
+    padding:5px;
+    margin:15px;
+    font-size:25px;
+}
+.play{
+    width:130px;
+    font-size:25px;
+}
+canvas{
+    border:5px solid rgb(255, 255, 255);
+    border-radius:20px;
+    margin-top:100px;
+}

@@ -1,0 +1,27 @@
+body{
+    background-color: lightblue;
+}
+.login_div1, .login_div2{
+    background-color: white;
+    padding: 10px;
+    float: none;
+    border-radius: 15px;
+}
+#player1_name, #player2_name{
+    display: inlne-block;
+    margin-left: 20px;
+}
+#word{
+    width: 60%;
+}
+#output{
+    background-color: white;
+    border-radius: 10px;
+    border-top: 10px solid red;
+    padding: 10px;
+    float:none;
+    text-align: left;
+}
+#word_display{
+    letter-spacing: 5px;
+}

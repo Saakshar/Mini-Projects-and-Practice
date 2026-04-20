@@ -1,0 +1,7 @@
+# greencrab.yaml
+path: ./greencrab  # root dir
+train: train/images
+val: valid/images
+
+nc: 1
+names: ['green_crab']
