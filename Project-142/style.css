@@ -1,0 +1,31 @@
+body
+{
+    background-size:cover;
+}
+.heading{
+    box-shadow:5px 5px 5px white;
+    width:100%;
+    text-align:left;
+    color:blue;
+}
+.play,.restart{
+    height:75px;
+    width:100px;
+    font-size:25px;
+    text-align:center;
+}
+.heading button{
+    float:right;
+}
+.heading h3{
+    display:inline;
+    font-size:50px;
+}
+.footer{
+    width:100%;
+    position:sticky;
+    background-color:white;
+    color:black;
+    line-height:2;
+    bottom:0;
+}

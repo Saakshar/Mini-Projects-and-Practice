@@ -1,0 +1,11 @@
+body
+{
+    background-size:cover;
+}
+.heading{
+    box-shadow:5px 5px 5px white;
+}
+.play{
+    height:50px;
+    width:50px;
+}
