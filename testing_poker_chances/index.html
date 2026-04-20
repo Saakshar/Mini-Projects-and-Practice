@@ -1,0 +1,66 @@
+<html>
+<header>
+    <style>
+
+.parent {
+    width: 10%;
+    height: 10%;
+    display: table;
+    text-align: center;
+}
+.parent > .child {
+    display: table-cell;
+    vertical-align: middle;
+}
+    </style>
+    <title>Poker</title>
+</header>
+<body >
+<span class="parent">
+    <h4 class="child">Community Cards:</h4>
+{% for card in com_cards %}
+<p class="child">  {{card}}  </p>
+{% endfor %}
+    {% if (com_cards|length)!=5 %}
+<form class="parent" method="POST" action="/add_com_card">
+    <input class='child' type="text" id="community_card" name='community_card'>
+    <input type="submit" class="child" value="Add Community Card">
+</form>
+    {% endif %}
+     <h4 class="child">Burned Cards:</h4>
+{% for card in burned_cards %}
+<p class="child">  {{card}}  </p>
+{% endfor %}
+    <form class="parent" method="POST" action="/burn_card">
+    <input class='child' type="text" id="burned_card" name='burned_card'>
+    <input type="submit" class="child" value="Burn Card">
+</form>
+</span>
+<br><br>
+{% for player in data %}
+<span class="parent">
+    <h3 class="child">{{player}}</h3>
+    {% for card in data[player] %}
+        <p class="child">  {{card}}  </a></p>
+    {% endfor %}
+    {% if (data[player]|length)!=2 %}
+    <form class="child" method="POST" action="/add_card/{{player}}">
+    <input class='child' type="text" id="player_card" name="player_card">
+    <input type="submit" class="child" value="Add Card">
+    </form>
+    {% endif %}
+    <p><a href="/fold/{{player}}">FOLD</a></p>
+</span>
+{% endfor %}
+<span class="parent">
+<!--  modifed for when u dont other's cards-->
+    {% if data|length==0 %}
+<form class="child" method="POST" action="/add_player">
+    <input class='child' type="text" id="player" name="player">
+    <input type="submit" class="child" value="Add Player">
+</form>
+    {% endif %}
+</span>
+<p><a href="/calculate">Calculate Odds</a></p>
+</body>
+</html>
