@@ -1,0 +1,14 @@
+.heading{
+    background-color:green;
+    color:gray;
+    font-size:20px;
+    padding:5px;
+    margin:5px;
+}
+.anchor{
+    background-color:blue;
+    color:gray;
+    font-size:16px;
+    padding:5px;
+    margin:5px;
+}
