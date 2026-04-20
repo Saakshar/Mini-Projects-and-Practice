@@ -1,0 +1,36 @@
+#submit{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#sort{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#search{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+input{
+    margin: 10px;
+}
+#submit_display{
+    border: 1px solid black;
+    padding: 10px;
+    background-color:white;
+    border-radius: 10px;
+    width: 50%;
+}
+#sort_display{
+    border: 1px solid black;
+    padding: 10px;
+    background-color: white;
+    border-radius: 10px;
+    width: 50%;
+}
+#search_display{
+    border: 1px solid black;
+    padding: 10px;
+    background-color: white;
+    border-radius: 10px;
+    width: 50%;
+}

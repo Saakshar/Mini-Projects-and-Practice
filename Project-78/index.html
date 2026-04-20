@@ -1,0 +1,31 @@
+<html>
+    <head>
+        <title>
+            Project: 78
+        </title>
+    </head>
+    <body>
+        <h1>My Family Book</h1>
+        <img src="" style="width: 30%;" id="family_member_image">
+        <h4 id="family_member_name"></h4>
+        <button onclick="update()">Next</button>
+        <script>
+            var images=["https://th.bing.com/th/id/OIP.rZRM5_KaAVtwJJvYVmw7GAHaKY?w=140&h=196&c=7&o=5&pid=1.7","https://th.bing.com/th/id/OIP.v3s127JGzFAVljPnc0rceAAAAA?w=131&h=350&c=7&o=5&pid=1.7","https://th.bing.com/th/id/OIP.9KuIOxa6QkEgSFNGiFsZzgHaLb?w=182&h=281&c=7&o=5&pid=1.7"];
+            var names=["Dhara Patel","Himanshu Patel","Vaishali Patel"];
+            var i=0;
+            function update()
+            {
+                i++;
+                var number_of_family_members_in_an_array=3
+                if(i>number_of_family_members_in_an_array)
+                {
+                    i=0;
+                }
+                var updated_image=images[i];
+                var updated_name=names[i];
+                document.getElementById("family_member_image").src=updated_image;
+                document.getElementById("family_member_name").innerHTML=updated_name;
+            }
+        </script>
+    </body>
+</html>
