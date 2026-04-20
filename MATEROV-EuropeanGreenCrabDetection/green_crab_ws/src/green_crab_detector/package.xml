@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>green_crab_detector</name>
+  <version>0.0.1</version>
+  <description>European Green Crab Detection Node using GroundingDINO</description>
+
+  <maintainer email="saaksharpate2024@fau.edu">Saakshar Patel</maintainer>
+  <license>FAU</license>
+
+  <buildtool_depend>ament_python</buildtool_depend>
+
+  <depend>rclpy</depend>
+  <depend>sensor_msgs</depend>
+  <depend>std_msgs</depend>
+  <depend>cv_bridge</depend>
+
+</package>

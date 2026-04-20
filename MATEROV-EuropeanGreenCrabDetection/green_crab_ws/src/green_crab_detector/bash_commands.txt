@@ -1,0 +1,3 @@
+source ~/green_crab_ws/install/setup.bash
+
+ros2 run green_crab_detector detector_node
