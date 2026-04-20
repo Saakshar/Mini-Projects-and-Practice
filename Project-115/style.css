@@ -1,0 +1,8 @@
+canvas{
+    border: 1px solid black;
+    background:white;
+}
+.btn-warning:hover{
+    background-color:red;
+    color:black;
+}

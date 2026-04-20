@@ -1,0 +1,15 @@
+body{
+    background-color:blue;
+}
+#score{
+    font-size:20px;
+    margin-left:100px;
+}
+#timer{
+    font-size:18px;
+    float:right;
+    margin-right:50px;
+}
+#to_be_drawn{
+    color:red;
+}

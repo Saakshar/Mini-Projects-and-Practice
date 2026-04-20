@@ -1,0 +1,31 @@
+<html>
+    <head>
+        <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@200&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@200&family=Lato:wght@100&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="col-xs-12 text-center header_div">
+            <h2>Sound Controlled Animals</h2>
+            <p>Note: when you make an animal noise that animal is shown below</p>
+        </div>
+        <div class="col-xs-12 main_div">
+            <center>
+                <button class="btn btn-danger" onclick="record();">Record</button>
+                <h4 id="num_of_times"></h4>
+                <h3 id="animal_name"></h3>
+                <br>
+                <image id="animal_image" src="default.png"></image>
+            </center>
+        </div>
+        <div class="copy_right_footer">By: Saakshar Patel</div>
+        <script src="main.js"></script>
+    </body>
+</html>

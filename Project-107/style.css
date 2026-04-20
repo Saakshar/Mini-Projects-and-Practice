@@ -1,0 +1,34 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    background: rgb(197, 197, 240);
+}
+.header_div{
+    background:rgb(54, 107, 109);
+    color:cyan;
+    font-size: 10px;
+    font-weight: bolder;
+}
+.header_div p{
+    font-family: 'Gemunu Libre', sans-serif;
+    font-weight:bold;
+    letter-spacing:2px;
+    font-size:10px;
+}
+.main_div button{
+    font-family: 'Lato', sans-serif;
+    margin-top: 20px;
+    width: 100px;
+    font-weight: bolder;
+    letter-spacing: 2px;
+}
+.copy_right_footer{
+    background:rgb(200, 197, 197);
+    color:rgb(102, 98, 98);
+    width:100%;
+    font-size:18px;
+    line-height:4;
+    text-shadow:2px 2px 2px rgb(134, 134, 139);
+    text-align:center;
+    position:fixed;
+    bottom:0;
+}

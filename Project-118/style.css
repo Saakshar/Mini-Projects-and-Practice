@@ -1,0 +1,31 @@
+body{
+    background-color:blue;
+}
+#score{
+    font-size:20px;
+    margin-left:100px;
+}
+#timer{
+    font-size:18px;
+    float:right;
+    margin-right:50px;
+}
+#to_be_drawn{
+    color:red;
+}
+canvas{
+    margin-top:50px;
+    border:5px solid blue;
+    border-radius:20px;
+    animation-name:animation;
+    animation-duration:5s;
+    animation-iteration-count:infinite;
+}
+@keyframes animation{
+    from{
+        box-shadow:1px 1px 40px blue;
+    }
+    to{
+        box-shadow:1px 1px 40px red;
+    }
+}
