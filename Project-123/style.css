@@ -1,0 +1,21 @@
+p{
+    background-color:white;
+}
+.heading{
+    box-shadow: 5px 5px 5px black;
+    padding:10px;
+    margin-bottom:20px;
+}
+footer{
+    position:fixed;
+    bottom:0;
+    background-color:black;
+    color:white;
+    border: 5px solid black;
+    margin-top:100%;
+    padding:20px;
+    font-family: 'Roboto', sans-serif;
+}
+canvas{
+    
+}
